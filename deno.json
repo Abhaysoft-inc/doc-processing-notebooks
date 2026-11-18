@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@doc/": "../doc-processing/src/",
+    "pino": "../doc-processing/node_modules/pino/pino.js",
+    "dotenv": "../doc-processing/node_modules/dotenv/dist/index.cjs"
+  },
+  "nodeModulesDir": "manual",
+  "unstable": ["sloppy-imports", "unsafe-proto"],
+  "compilerOptions": {
+    "strict": true
+  }
+}
